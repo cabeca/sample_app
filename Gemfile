@@ -6,9 +6,11 @@ gem 'sqlite3', '1.3.3'
 
 gem 'rspec-rails', '2.6.1'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 group :development do
 	gem 'annotate'
+	gem 'faker'
 end
 
 group :test do
